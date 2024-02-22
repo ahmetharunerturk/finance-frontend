@@ -37,6 +37,7 @@ module.exports = {
         'danger-color': '#E74040',
         'light-gray-1': '#FAFAFA',
         'light-gray-2': '#ECECEC',
+        'corner': "E9E9E9",
       },
 
     },

@@ -24,17 +24,17 @@
         <div class="container flex justify-between items-center">
             <p class="text-2xl text-text-color font-bold">Brand Name</p>
             <nav class="hidden lg:flex space-x-10 font-semibold text-second-text-color">
-                <a href="#" class="relative text-sm">Home</a>
-                <a href="#" class="relative text-sm">Product</a>
-                <a href="#" class="relative text-sm">Pricing</a>
-                <a href="#" class="relative text-sm">Contact</a>
+                <a href="#home" class="relative text-sm">Home</a>
+                <a href="#product" class="relative text-sm">Product</a>
+                <a href="#pricing" class="relative text-sm">Pricing</a>
+                <a href="#contact" class="relative text-sm">Contact</a>
             </nav>
-            <div class="flex space-x-6 font-bold">
+            <div class="flex space-x-6 font-semibold">
                 <p class="hidden lg:flex items-center text-primary-color px-6 py-4">Login</p>
                 <button class="flex items-center justify-center bg-primary-color text-light-text-color rounded-lg px-8 py-4">
                     <a href="" class="flex items-center">
-                        <p class="hidden lg:block">Become a member</p>
-                        <i class="fas fa-arrow-right"></i>
+                        <p class="lg:block px-2">Become a member</p>
+                        <i class="fas fa-arrow-right font-thin"></i>
                     </a>
                 </button>
             </div>
@@ -42,10 +42,11 @@
     </header>
     
     <!-- HERO -->
-    <section class="container flex flex-col items-center pt-16 pb-16 lg:flex-row">
+    <section class="container flex flex-col items-center pt-16 pb-16 lg:flex-row" id="home">
         <!-- HERO TEXT -->
-        <div class="flex-1 mb-10 lg:mb-0 lg:pr-10">
-            <h1 class="text-5xl text-dark-background-color font-extrabold">Your Financial<br>Assistant</h1>
+        <div class="flex-1 mb-10 lg:mb-0 lg:pr-10 space-y-8">
+            <h1 class="text-5xl text-dark-background-color font-extrabold">Your Financial</h1>
+            <h1 class="text-5xl text-dark-background-color font-extrabold">Assistant</h1>
             <p class="text-second-text-color text-lg">We know how large objects will act, <br>but things on a small scale.</p>
             <div class="flex font-bold space-x-5 mt-5">
                 <a href="#" class="hidden lg:flex items-center text-light-text-color bg-primary-color px-10 rounded-full py-4">Get Quote Now</a>
@@ -63,37 +64,92 @@
     </section>
 
     <!-- STRATEGY -->
-    <section class="bg-white">
-        <div class="container flex items-center pt-16 pb-16">
+    <section class="bg-white pt-32 pb-32" id="product">
+        <div class="container text-center items-center justify-center">
             <!-- STRATEGY CONTENT HERE -->
+            <h1 class="text-4xl text-dark-background-color font-extrabold">Better Strategy</h1>
+            <br>
+            <h1 class="text-4xl text-dark-background-color font-extrabold">With Quality Business</h1>
+            <br>
+            <p class="px-36 text-second-text-color text-lg">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis velit sit reprehenderit libero eligendi beatae quam rerum accusamus excepturi, totam vero amet eum corrupti laboriosam voluptatem neque ipsa dolorum consequatur.
+            </p>
+
+            <!--CARDS-->
+            <div class="grid grid-cols-3 gap-5 pt-10">
+                <div class="bg-light-gray-1 rounded-md ring-1 ring-corner py-10 -px-20">
+                    <i class="fa-regular fa-user font-thin text-primary-color text-6xl pb-3"></i>
+                    <p class="text-xl text-dark-background-color font-bold">Support On Raising Funds</p>                    
+                </div>
+                <div class="bg-primary-color rounded-md ring-2 ring-corner py-10 -px-20">
+                    <i class="fa-regular fa-user font-thin text-white text-6xl pb-3"></i>
+                    <p class="text-xl text-white font-bold">Investment Trading</p>                    
+                </div>
+                <div class="bg-light-gray-1 rounded-md ring-1 ring-corner py-10 -px-20">
+                    <i class="fa-regular fa-user font-thin text-primary-color text-6xl pb-3"></i>
+                    <p class="text-xl text-dark-background-color font-bold">Financial Analysis</p>                    
+                </div>
+               
+            </div>
         </div>
+        
     </section>
 
     <!-- CLIENTS -->
-    <section>
-        <div class="container flex items-center pt-16 pb-16">
+    <section class="">
+        <div class="container flex items-center pt-32 pb-32">
             <!-- CLIENTS CONTENT HERE -->
+            <div class="text-center items-center justify-center">
+                <!-- STRATEGY CONTENT HERE -->
+                <h1 class="text-4xl text-dark-background-color font-extrabold">What Clients Say</h1>
+                <br>            
+                <p class="text-second-text-color text-lg">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis velit sit reprehenderit libero eligendi beatae quam rerum accusamus excepturi, totam vero amet eum corrupti laboriosam voluptatem neque ipsa dolorum consequatur.
+                </p>
         </div>
     </section>
 
     <!-- BLOG -->
     <section>
-        <div class="container flex items-center pt-16 pb-16">
+        <div class="container flex items-center pt-32 pb-32">
             <!-- BLOG CONTENT HERE -->
+            <div class="text-center items-center justify-center">
+                <!-- STRATEGY CONTENT HERE -->
+                <h1 class="text-4xl text-dark-background-color font-extrabold">Latest News</h1>
+                <br>            
+                <p class="text-second-text-color text-lg">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis velit sit reprehenderit libero eligendi beatae quam rerum accusamus excepturi, totam vero amet eum corrupti laboriosam voluptatem neque ipsa dolorum consequatur.
+                </p>
+            </div>
         </div>
+            
     </section>
 
     <!-- PRICING -->
     <section>
-        <div class="container flex items-center pt-16 pb-16">
+        <div class="container flex items-center pt-32 pb-32" id="pricing">
             <!-- PRICING CONTENT HERE -->
+            <div class="text-center items-center justify-center">
+                <!-- STRATEGY CONTENT HERE -->
+                <h1 class="text-4xl text-dark-background-color font-extrabold">Pricing</h1>
+                <br>            
+                <p class="text-second-text-color text-lg">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis velit sit reprehenderit libero eligendi beatae quam rerum accusamus excepturi, totam vero amet eum corrupti laboriosam voluptatem neque ipsa dolorum consequatur.
+                </p>
+            </div>
+           
         </div>
     </section>
 
-    <!-- NEWSLETTERS -->
+    <!-- CONTACT -->
     <section>
-        <div class="container flex items-center pt-16 pb-16">
+        <div class="container flex items-center pt-32 pb-32" id="contact">
             <!-- NEWSLETTERS CONTENT HERE -->
+            <div class="text-center items-center justify-between">
+                <!-- STRATEGY CONTENT HERE -->
+                <h1 class="text-4xl text-dark-background-color font-extrabold">Get In Touch</h1>
+                
+            </div>
         </div>
     </section>
 
